@@ -1,0 +1,30 @@
+.container{
+    width: 100%;
+    max-width: 100%;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 20vh;
+    line-height: 20vh;
+    background-color: #ffc0cb;
+    border: 1px solid black;
+    padding: 5px;
+
+}
+
+.box-nested{
+    height: 19vh;
+    line-height: 19vh;
+    border: 1px solid white;
+    background-color: #f07f80;
+}
+
+span{
+    display: block;
+    text-align: center;
+}
