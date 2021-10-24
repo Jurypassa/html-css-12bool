@@ -1,0 +1,64 @@
+.container{
+    width: 564px;
+    height: 564px;
+    margin: 150px auto;
+    
+}
+
+.row{
+    width: 100%;
+    height: calc(564px / 13);
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+.box{
+    height: 100%;
+}
+
+
+.blu{
+    background-color: #173553;
+}
+
+.celeste{
+    background-color: #5b89b8;
+}
+
+.cielo{
+    background-color: #8ebeee;
+}
+
+.rosso{
+    background-color: red;
+}
+
+.marrone{
+    background-color: #7a7240;
+}
+
+.sabbia{
+    background-color: #c9aa62;
+}
+
+.nero{
+    background-color: black;
+}
+
+div{
+    height: 100%;
+}
+
+
+
+/**** debug ****/
+
+/* .debug.container{
+    border: 1px solid red;
+} */
+
+/* .debug .box{
+    border: 1px solid black;
+} */
